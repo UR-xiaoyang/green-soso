@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0
+}
+
+body {
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    text-align: center;
+}
+
+.logo {
+    font: bold 24px/100px "Microsoft Yahei";
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 999;
+}
+
+.menu {
+    height: 42px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 998;
+    width: 100%;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    display: inline-block;
+    font: 16px/42px "Microsoft Yahei";
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0px 15px
+}
+
+.menu li.active {
+    background: #F00;
+}
