@@ -10,7 +10,6 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
 </head>
 
 <body>
@@ -30,16 +29,26 @@
         <!--第一个页面-->
         <div class="section">
             <div class="search d1">
-                <form id="soso" action="https://www.dogedoge.com/results" target="_self" method="get">
+                <form id="soso" action="http://www.baidu.com/s" target="_self" method="get">
                     <div class="search-wrapper">
-                        <input type="text" placeholder="搜索从这里开始..." id="search-input" name="q">
+                        <input type="text" class="start" placeholder="搜索从这里开始..." id="search-input" name="wd">
                         <button type="submit" class="search-icon">🔍</button>
                     </div>
                 </form>
             </div>
         </div>
         <!--第二个页面-->
-        <div class=" section ">正在开发</div>
+        <div class=" section ">
+            <form id=>
+                <label><input type="radio" name="gender" value="bing" id="c-bing">bing</label>
+                <label><input type="radio" name="gender" value="google" id="c-google" >google</label>
+                <label><input type="radio" name="gender" value="雅虎" id="c-yahu" >雅虎</label>
+                <label><input type="radio" name="gender" value="中国搜索" id="c-CNso">中国搜索</label>
+                <label><input type="radio" name="gender" value="多吉多吉" id="c-dogedoge">多吉多吉</label>
+                <label><input type="radio" name="gender" value="百度" id="c-baidu" checked>百度</label>
+
+            </form>
+        </div>
         <!--第三个页面-->
         <div class="section ">
             <div class="slide ">正在开发</div>
@@ -55,6 +64,8 @@
     <script type="text/javascript " src="js/jquery-1.11.1.js "></script>
     <script type="text/javascript " src="js/jquery.fullPage.js "></script>
     <script type="text/javascript " src="js/global-control.js "></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/soso.js"></script>
 </body>
 
 </html>
