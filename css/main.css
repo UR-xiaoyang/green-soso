@@ -5,8 +5,10 @@
 }
 
 form {
-    position: relative;
-    width: 300px;
+    position: absolute;
+    width: 50%;
+    left: 25.8%;
+    top: 30%;
     margin: 0 auto;
 }
 
@@ -82,3 +84,13 @@ div.search {
     border-radius: 0 50px 50px 0;
     cursor: pointer;
 }
+
+.d1-Title {
+    color: rgb(6, 59, 42);
+    font-size: 350%;
+    position: absolute;
+    top: 10%;
+    left: 38.5%;
+}
+
+.d1-Subtitle {}
