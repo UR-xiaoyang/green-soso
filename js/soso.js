@@ -20,19 +20,19 @@ $("#c-dogedoge").click(function() {
 
 })
 $("#c-CNso").click(function() {
-    $("#soso").attr("action", ["http://www.chinaso.com/search/pagesearch.htm"])
+    $("#soso").attr("action", ["https://www.chinaso.com/search/pagesearch.htm"])
     $("#search-input").attr("name", ["q"])
     $("#search-input").attr("placeholder", ["-->国家权威搜索引擎<--"])
 
 })
 $("#c-baidu").click(function() {
-    $("#soso").attr("action", ["http://www.baidu.com/s"])
+    $("#soso").attr("action", ["https://www.baidu.com/s"])
     $("#search-input").attr("name", ["wd"])
     $("#search-input").attr("placeholder", ["-->中国知名的搜索引擎<--"])
 
 })
 $("#c-github").click(function() {
-    $("#soso").attr("action", ["http://www.github.com/search"])
+    $("#soso").attr("action", ["https://www.github.com/search"])
     $("#search-input").attr("name", ["q"])
     $("#search-input").attr("placeholder", ["-->在GitHub上搜索开源项目<--"])
 
