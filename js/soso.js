@@ -37,3 +37,9 @@ $("#c-github").click(function() {
     $("#search-input").attr("placeholder", ["-->在GitHub上搜索开源项目<--"])
 
 })
+$("#c-DuckDuckGo").click(function() {
+    $("#soso").attr("action", ["https://duckduckgo.com"])
+    $("#search-input").attr("name", ["q"])
+    $("#search-input").attr("placeholder", ["-->利用DuckDuckGo匿名搜索<--"])
+
+})
